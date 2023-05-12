@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2023-05-12T16:59:36.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.3.719 Yowser/2.5 Safari/537.36" etag="Fij24MrGjtTqp5mQG1uT" version="21.2.3" type="device">
+  <diagram name="Страница 1" id="PXF8gYfuSEdTyaRWxLsL">
+    <mxGraphModel dx="1386" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-1" value="log_in_for_admin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="520" y="50" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-2" value="Логин" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-1" vertex="1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-1" source="lPxlCy3dPTvAVLmnzLPC-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-3" value="Пароль" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-1" vertex="1">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-6" value="groups_control" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="780" y="70" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-7" value="Посмотреть группы" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-6" vertex="1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-9" value="Редактировать группы" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-6" vertex="1">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-10" value="Удалить группу&lt;br&gt;&lt;br&gt;Добавить группу&lt;br&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-6" vertex="1">
+          <mxGeometry y="86" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-15" value="group" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="690" y="310" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-16" value="Посмотреть участников" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-15" vertex="1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-15" source="lPxlCy3dPTvAVLmnzLPC-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-18" value="Редактировать участников" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-15" vertex="1">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-19" value="Добавить участников&lt;br&gt;&lt;br&gt;Удалить участников" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-15" vertex="1">
+          <mxGeometry y="86" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-20" value="member" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="930" y="310" width="170" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-21" value="Посмотреть дисциплины" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-20" vertex="1">
+          <mxGeometry y="26" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-23" value="Посмотреть оценки" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-20" vertex="1">
+          <mxGeometry y="56" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-24" value="Редактировать дисциплину&lt;br&gt;&lt;br&gt;Редактировать оценки&lt;br&gt;&lt;br&gt;Удалить дисциплину&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Удалить оценки&lt;br&gt;&lt;br&gt;Добавить дисциплину&lt;br&gt;&lt;br&gt;Добавить оценку" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="lPxlCy3dPTvAVLmnzLPC-20" vertex="1">
+          <mxGeometry y="86" width="170" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="lPxlCy3dPTvAVLmnzLPC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.544;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lPxlCy3dPTvAVLmnzLPC-9" target="lPxlCy3dPTvAVLmnzLPC-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
