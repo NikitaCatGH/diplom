@@ -6,7 +6,7 @@ const { DataTypes } = require('sequelize');
 
 //логин админа
 const LoginAdminPanel = sequelize.define("login_for_admin_panel", {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrementIdentity: false },
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: false },
     login: { type: DataTypes.STRING, unique: true, allowNull: false },
     pass: { type: DataTypes.STRING, unique: true, allowNull: false }
 });
@@ -15,15 +15,15 @@ const LoginAdminPanel = sequelize.define("login_for_admin_panel", {
 // массив участников, массив дисциплин?
 
 const Group = sequelize.define("group", {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrementIdentity: true },
-    nameOfGroups: { type: DataTypes.STRING, unique: true, allowNull: false },
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+    name: { type: DataTypes.STRING, unique: true, allowNull: false },
     description: { type: DataTypes.STRING, unique: false, allowNull: true },
     countOfMembers: { type: DataTypes.INTEGER, unique: false, allowNull: true }
 });
 // студенты с их оценками
 // массив оценок?
 const Student = sequelize.define("student", {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrementIdentity: true },
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     name: { type: DataTypes.STRING, unique: false, allowNull: false },
     group_id: { type: DataTypes.INTEGER, allowNull: false },
     discipline_id: { type: DataTypes.INTEGER, allowNull: false },
@@ -32,28 +32,28 @@ const Student = sequelize.define("student", {
 // оценки
 
 const Mark = sequelize.define("mark", {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrementIdentity: true },
-    value: { type: DataTypes.INTEGER, autoIncrementIdentity: false },
-    student_id: { type: DataTypes.INTEGER, autoIncrementIdentity: false },
-    task_id: { type: DataTypes.INTEGER, autoIncrementIdentity: false },
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+    value: { type: DataTypes.INTEGER, autoIncrement: false },
+    student_id: { type: DataTypes.INTEGER, autoIncrement: false },
+    task_id: { type: DataTypes.INTEGER, autoIncrement: false },
 
 }
 );
 // task
 
 const Task = sequelize.define("task", {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrementIdentity: true },
-    value: { type: DataTypes.STRING, autoIncrementIdentity: false },
-    file: { type: DataTypes.STRING, autoIncrementIdentity: false },
-    discipline_id: { type: DataTypes.INTEGER, autoIncrementIdentity: false },
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+    value: { type: DataTypes.STRING, autoIncrement: false },
+    file: { type: DataTypes.STRING, autoIncrement: false },
+    discipline_id: { type: DataTypes.INTEGER, autoIncrement: false },
 
 });
 
 
 //discipline
 const Discipline = sequelize.define("discipline", {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrementIdentity: true },
-    nameOfGroups: { type: DataTypes.STRING, unique: true, allowNull: false },
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+    name: { type: DataTypes.STRING, unique: true, allowNull: false },
     description: { type: DataTypes.STRING, unique: false, allowNull: true },
 
 });
@@ -61,23 +61,23 @@ const Discipline = sequelize.define("discipline", {
 
 //textboxs
 const Textbox_group = sequelize.define("textbox_group", {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrementIdentity: true },
-    value: { type: DataTypes.STRING, autoIncrementIdentity: false },
-    group_id: { type: DataTypes.INTEGER, autoIncrementIdentity: false },
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+    value: { type: DataTypes.STRING, autoIncrement: false },
+    group_id: { type: DataTypes.INTEGER, autoIncrement: false },
 
 });
 
 const Textbox_discipline = sequelize.define("textbox_discipline", {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrementIdentity: true },
-    value: { type: DataTypes.STRING, autoIncrementIdentity: false },
-    discipline_id: { type: DataTypes.INTEGER, autoIncrementIdentity: false },
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+    value: { type: DataTypes.STRING, autoIncrement: false },
+    discipline_id: { type: DataTypes.INTEGER, autoIncrement: false },
 
 });
 
 
 //связующая дисциплин и груп
 const DisciplineGroup = sequelize.define("descipline_group", {
-    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrementIdentity: true },
+    id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
 });
 
 
